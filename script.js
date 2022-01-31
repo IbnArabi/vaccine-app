@@ -11,5 +11,6 @@ fetch('https://covid-api.mmediagroup.fr/v1/vaccines?status=confirmed&country=Pak
     <h1 class="all-class">Fully Vaccinated <img src="vacc_full.png" alt="" class="images"><br>${data.All.people_vaccinated}</h1>
     <h1 class="all-class">Total Administered <img src="vacc_people.png" alt="" class="images"><br>${data.All.administered}</h1>
     <h1 class="all-class">Life Expectancy<br>${data.All.life_expectancy} years</h1>
+    <a href="https://ibnarabi.github.io/covid-app/" target="_blank"><button class="button-style">COVID-Stats</button></a>
 `
 })

@@ -33,7 +33,7 @@
 .all-class:hover{
     outline: 1px solid black;
     box-shadow: black;
-    transform: scale(1.1);
+    transform: scale(1.3);
     backdrop-filter: blur(10px);
     transition: .7s;
     border-radius: 5px;
@@ -47,4 +47,8 @@
     height: 50px;
     background: transparent;
     float: right;
+}
+
+.button-style{
+
 }
